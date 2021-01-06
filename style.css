@@ -40,6 +40,10 @@ tbody, td, tfoot, th, thead, tr {
     font-weight:500;
 }
 
+.navbar-light .navbar-brand {
+    font-weight: 500;
+    font-size: 20px;
+}
 
 #figure {
     position: relative;
