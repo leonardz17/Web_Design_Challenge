@@ -11,7 +11,7 @@
     <body>
         
         <header>
-            <div class = "header_container">
+            <div id = "topbar">
                 <div class = "row">
                     <div class = "col-md-2">
                         <h1>
@@ -52,7 +52,7 @@
             </div>
         </header>
       
-        <div class="container">
+        <div class="container-fluid">
             <div class = "row">
                 <div class = "col-md-8">
                     <section id="summary">
@@ -65,12 +65,14 @@
                       <p>The following plots on the side will give you a visualization of these different weather conditons in relation to their latitude and the equator. Clicking each one will give you a more in-depth analysis of that weather condition. The full data table can also be found in the data page for those interested.</p>
                     </section>
                 </div>
-                <div class = "col-md-4"> 
+                <div class = "col-md-4">
+                  <div class = "sidenav">
                     <h2>Visualizations</h2>
                     <a href="cloudiness.html"><img src = "Visualizations/lat_cloud.png" width="150" height="100" alt = "Latitude vs Cloudiness"></a>
                     <a href="humidity.html"><img src = "Visualizations/lat_hum.png" width="150" height="100" alt = "Latitude vs Humidity"></a>
                     <a href="max_temp.html"><img src="Visualizations/lat_temp.png" width="150" height="100" alt = "Latitude vs Temperature"></a>
                     <a href="wind_speed.html"><img src="Visualizations/lat_wind.png" width="150" height="100" alt = "Latitude vs Wind Speed"></a>
+                  </div>
                 </div>
             </div>
         </div>

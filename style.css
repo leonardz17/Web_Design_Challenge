@@ -16,6 +16,10 @@ h3 {
     font-size: 20px;
 }
 
+body {
+    background-color: rgb(240, 239, 239);
+}
+
 .title {
     font-size: 20px;
     color: black;
@@ -28,8 +32,8 @@ h3 {
     font-weight:500;
 }
 
-.col {
-    
+.sidenav {
+    text-align: center;
 }
 
 #figure {
@@ -41,7 +45,7 @@ h3 {
     float: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
     #summary, #vis-image{
         float: none;
