@@ -20,6 +20,14 @@ body {
     background-color: rgb(240, 239, 239);
 }
 
+tbody, td, tfoot, th, thead, tr {
+    border-width: 1px;
+}
+
+.container-fluid {
+    padding-right: 80px;
+}
+
 .title {
     font-size: 20px;
     color: black;
@@ -32,9 +40,6 @@ body {
     font-weight:500;
 }
 
-/* .sidenav {
-    text-align: center;
-} */
 
 #figure {
     position: relative;
@@ -45,7 +50,7 @@ body {
     float: left;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 960px) {
 
     #summary, #vis-image{
         float: none;
