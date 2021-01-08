@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name = "viewport" content = "width=device-width, inital-scale=1">
         <title>Wind Speed by Latitude</title>
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -44,13 +44,15 @@
         <div class = "container">
             <div class = "row">
                 <div class = "col-md-8">
+                  <hr>
                     <h2>Wind Speed</h2>
-                    <img src = "Visualizations/lat_wind.png" alt = "Latitude vs. Wind Speed">
+                    <img id="vis-image" src = "Visualizations/lat_wind.png" alt = "Latitude vs. Wind Speed">
                     <p>
                         As we can see from the plot, wind speed seems fairly consistent throughout the latitude range. There doesn't look to have any real correlation between the two as we can't really see any major increase in wind speeds anywhere in the latitude range. We do see some data of higher wind speeds in the 70-80 latitude range but there's not enough datapoints there that those can possibly be considered outliers. 
                     </p>
                 </div>
                 <div class = "col-md-4">
+                  <hr>
                   <!-- <div class = "sidenav"> -->
                     <h2>Visualizations</h2>
                     <a href="cloudiness.html"><img src = "Visualizations/lat_cloud.png" width="150" height="100" alt = "Latitude vs Cloudiness"></a>

@@ -45,6 +45,11 @@ tbody, td, tfoot, th, thead, tr {
     font-size: 20px;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #figure {
     position: relative;
 }
@@ -54,9 +59,27 @@ tbody, td, tfoot, th, thead, tr {
     float: left;
 }
 
-@media (max-width: 960px) {
-
-    #summary, #vis-image{
-        float: none;
+@media (max-width: 425px) {
+    .container-fluid {
+        padding-right: 10px;
     }
+
+    #summary,
+    #vis-image {
+    float:none;
+    }
+
+    #vis-image {
+        width:351px;
+        height:216px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    #vis-image {
+        width:310px;
+        height:200px;
+    }
+
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name = "viewport" content = "width=device-width, inital-scale=1">
         <title>Max Temperature by Latitude</title>
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -44,13 +44,15 @@
         <div class = "container">
             <div class = "row">
                 <div class = "col-md-8">
+                  <hr>
                     <h2>Max Temperature</h2>
-                    <img src = "Visualizations/lat_temp.png" alt = "Latitude vs. Max Temperature">
+                    <img id="vis-image" src = "Visualizations/lat_temp.png" alt = "Latitude vs. Max Temperature">
                     <p>
                         As expected max temperature tends to increase as you get closer to the equator. You can see on the plot that max temperatures are lower the further away the city is from the equator and starts increasing for cities closer to the equator. This gives me a very clear indication that there is a very strong correlation between the two factors.
                     </p>
                 </div>
                 <div class = "col-md-4">
+                  <hr>
                   <!-- <div class = "sidenav"> -->
                     <h2>Visualizations</h2>
                     <a href="cloudiness.html"><img src = "Visualizations/lat_cloud.png" width="150" height="100" alt = "Latitude vs Cloudiness"></a>
